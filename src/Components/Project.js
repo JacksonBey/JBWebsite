@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Player } from 'video-react'
 
 export default class Project extends Component {
 
