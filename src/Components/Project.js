@@ -5,9 +5,10 @@ export default class Project extends Component {
 
 
     render() {
+        let {title, description, githubURL, hostedLink, videoSRC} = this.props.project
         return(
             <div>
-                <p>Project component</p>
+                <p>{title}</p>
             </div>
         )
     }
