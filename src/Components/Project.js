@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { Player } from 'video-react'
+// import VidPlayer  from './VidPlayer'
+import ReactPlayer from 'react-player'
 
 export default class Project extends Component {
 
@@ -9,6 +10,8 @@ export default class Project extends Component {
         return(
             <div>
                 <p>{title}</p>
+                <p>vimeo:</p>
+                <ReactPlayer url='https://vimeo.com/247859061' />
             </div>
         )
     }
