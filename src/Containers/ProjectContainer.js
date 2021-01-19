@@ -8,7 +8,6 @@ export default class ProjectContainer extends Component {
     render() {
         return(
             <div>
-                <p>hi from project container</p>
                 {projectData.map((project, idx) => <Project project={project} key = {idx}/>)}
             </div>
         )

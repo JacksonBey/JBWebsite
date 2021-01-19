@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 // import VidPlayer  from './VidPlayer'
 import ReactPlayer from 'react-player'
+// import 'semantic-ui-css/semantic.min.css'
+
 
 export default class Project extends Component {
 
@@ -8,10 +10,12 @@ export default class Project extends Component {
     render() {
         let {title, description, githubURL, hostedLink, videoSRC} = this.props.project
         return(
-            <div>
+            <div className='projectCard'>
+                <ReactPlayer url='https://www.youtube.com/watch?v=v4K8SMMEvRM' width='35vh' height='35vh' />
+                <div className="projectText">
                 <p>{title}</p>
                 <p>vimeo:</p>
-                <ReactPlayer url='https://vimeo.com/247859061' />
+                </div>
             </div>
         )
     }
