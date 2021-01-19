@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(to right top, #F2e205, #EAF205);
+    background: linear-gradient(to left, #F2e205, #EAF205);
 
 }
 
@@ -76,7 +76,19 @@ h1 {
 
 .projectCard {
   display: flex;
-  align-items: center;
-  height: 40vh
+  /* align-items: center;
+  justify-content: center; */
+  position: relative;
+  left: 10%;
+  top: 2%;
+  min-height: 38vh;
+  width: 75%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3)
+  );
+  border-radius: 2rem;
+  margin: 2rem 0rem
 }
 
