@@ -68,13 +68,13 @@ h1 {
   position: relative;
   left: 10%;
   top: 1%;
-  min-height: 20vh;
-  max-height: 35vh;
+  min-height: 25vh;
+  max-height: 40vh;
   width: 75%;
   background: linear-gradient(
     to right bottom,
-    rgba(255,255,255,0.7),
-    rgba(255,255,255,0.3)
+    rgba(255,255,255,0.5),
+    rgba(255,255,255,0.0)
   );
   border-radius: 2rem;
   margin: 1rem 0rem;
@@ -121,17 +121,34 @@ a {
   padding:2rem
 }
 
-.aboutDiv{
+.infoDiv{
   position: relative;
-  display: flex;
+  /* display: inline-flex; */
   align-items: center;
   justify-content: center;
   bottom: -100vh;
-  padding:5rem
+  padding:2rem 3rem;
+  margin: 2rem 3rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255,255,255,0.5),
+    rgba(255,255,255,0.0)
+  );
+  border-radius: 2rem;
+}
+
+.contactDiv{
+  margin: 2rem 0rem;
+  position: relative;
+  align-content: flex-start;
 }
 
 .dummy {
   position: relative;
   bottom: -165vh;
   padding: 5rem
+}
+
+.linkedin {
+  padding: 0;
 }
