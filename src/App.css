@@ -84,6 +84,7 @@ h1 {
   position: relative;
   left: 3%;
   border-radius: 1rem;
+  outline: none;
 }
 
 .projectText{
