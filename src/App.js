@@ -1,11 +1,32 @@
 import './App.css';
 import ProjectContainer from './Containers/ProjectContainer.js'
+import Arrow from './image/Arrow.png'
 
 function App() {
   return (
-    <div >
-     <h1>Jackson Beytebiere's website</h1>
-     <ProjectContainer/>
+    <div className='app'>
+     <h1 className='title'>Hi I'm Jackson Beytebiere <br/> I'm a Software Engineer</h1>
+     {/* <div className='ProjectsButtonDiv'>
+        <a className='ProjectButton' href="#projects">
+          <img className='Arrow' src={Arrow} alt='Arrow here'/>
+          <h2>Projects</h2>
+        </a>
+     </div>
+     <div className="demo">
+     <img className='Arrow' src={Arrow} alt='Arrow here'/>
+     <a href="#projects">
+     Demo
+     </a>
+     </div> */}
+     <br/>
+     <br/>
+     <a href="#projects" className='ProjectButtonDiv'> 
+     <img className='Arrow' src={Arrow} alt='Arrow here'/>
+     <h3>Projects</h3>
+     </a>
+     <div id='projects' className='ProjectContainerDiv'>
+      <ProjectContainer/>
+     </div>
     </div>
   );
 }

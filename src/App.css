@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: linear-gradient(to right top, #F2e205, #EAF205); */
+  /* background: #EAF205; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background: linear-gradient(to right top, #F2e205, #EAF205);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
+/* main {
   min-height: 100vh;
+} */
+
+.app {
+  /* background-color: #F2E205; */
+
+  min-height: 100vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+h1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  display: flex;
+  min-height: 60vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.ProjectButton {
+  
+  outline:none;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  background-color: transparent;
+
+}
+
+.Arrow {
+  /* display: flex; */
+  width: 8%;
+  height: auto;
+  transform: rotate(90deg)
+}
+
+.ProjectContainerDiv{
+  position: relative;
+  /* background: linear-gradient(to right top, #F2e205, #EAF205); */
+  bottom: -60vh;
+}
+
+.ProjectButtonDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -10vh;
+  color:black;
+  text-decoration: none;
 }
