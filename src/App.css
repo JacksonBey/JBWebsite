@@ -58,7 +58,7 @@ h1 {
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: -10vh;
+  bottom: 0vh;
   color:black;
   text-decoration: none;
 }
@@ -67,8 +67,9 @@ h1 {
   display: flex;
   position: relative;
   left: 10%;
-  top: 2%;
-  min-height: 30vh;
+  top: 1%;
+  min-height: 20vh;
+  max-height: 35vh;
   width: 75%;
   background: linear-gradient(
     to right bottom,
@@ -76,8 +77,8 @@ h1 {
     rgba(255,255,255,0.3)
   );
   border-radius: 2rem;
-  margin: 2rem 0rem;
-  padding: 2rem 0rem
+  margin: 1rem 0rem;
+  padding: 1rem 0rem
 }
 
 .video-js{
@@ -96,8 +97,6 @@ h1 {
   display: flex;
   position: absolute;
   top: 90%;
-  /* margin: 2rem 0rem */
-  /* padding: 1rem 0rem */
   padding: .5vw
 }
 
@@ -105,6 +104,34 @@ a {
   padding: 0rem .5rem
 }
 
-/* li{
-  list-style-type: none;
-} */
+.contactButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -65vh;
+  outline:none;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  background-color: transparent;
+  color:black;
+  text-decoration: none;
+  padding:2rem
+}
+
+.aboutDiv{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -100vh;
+  padding:5rem
+}
+
+.dummy {
+  position: relative;
+  bottom: -165vh;
+  padding: 5rem
+}

@@ -27,6 +27,15 @@ function App() {
      <div id='projects' className='ProjectContainerDiv'>
       <ProjectContainer/>
      </div>
+     <a href="#about" className='contactButtonDiv'> 
+     <img className='Arrow' src={Arrow} alt='Arrow here'/>
+     <h3>About me/ Contact</h3>
+     </a>
+     <div id='about' className='aboutDiv'>
+     <h3>About me</h3>
+     <p>Contact Info:</p>
+     </div>
+     <div id='dummy' className='dummy'></div>
     </div>
   );
 }
