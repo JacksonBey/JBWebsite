@@ -68,7 +68,7 @@ h1 {
   position: relative;
   left: 10%;
   top: 2%;
-  min-height: 38vh;
+  min-height: 30vh;
   width: 75%;
   background: linear-gradient(
     to right bottom,
@@ -80,9 +80,9 @@ h1 {
   padding: 2rem 0rem
 }
 
-.video{
+.video-js{
   position: relative;
-  left: 5%;
+  left: 3%;
   border-radius: 1rem;
 }
 
@@ -94,7 +94,7 @@ h1 {
 .links{
   display: flex;
   position: absolute;
-  top: 95%;
+  top: 90%;
   /* margin: 2rem 0rem */
   /* padding: 1rem 0rem */
   padding: .5vw
