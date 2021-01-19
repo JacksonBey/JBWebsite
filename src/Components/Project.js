@@ -11,10 +11,18 @@ export default class Project extends Component {
         let {title, description, githubURL, hostedLink, videoSRC} = this.props.project
         return(
             <div className='projectCard'>
-                <ReactPlayer url='https://www.youtube.com/watch?v=v4K8SMMEvRM' width='35vh' height='35vh' />
+                <ReactPlayer url='https://www.youtube.com/watch?v=v4K8SMMEvRM' width='35vh' height='35vh' className='video'/>
                 <div className="projectText">
-                <p>{title}</p>
-                <p>vimeo:</p>
+                    <h2>{title}</h2>
+                    <p>{description}</p>
+                    <div className='links'>
+                        <p>Links: </p>
+                        {/* <li></li> */}
+                        <a href={hostedLink}>Live Website</a>
+                        {/* <li></li> */}
+                        <a href={githubURL}> Github
+                        </a>
+                    </div>
                 </div>
             </div>
         )
