@@ -34,7 +34,7 @@ function App() {
      <div id='about' className='infoDiv'>
      <div className='aboutDiv'>
       <h3>About me</h3>
-      <p>My name is Jackson Beytebiere. Im a software engineer. I graduated from Flatiron coding bootcamp, an intensive 12 week course which involved learning full stack development with modern frameworks
+      <p>My name is Jackson Beytebiere (pronounced bate-ah-bear). Im a software engineer. I graduated from Flatiron coding bootcamp, an intensive 12 week course which involved learning full stack development with modern frameworks
   .      I have deep knowledge in engineering, physics and biology as I have a bachelors in science from University of Washington.
         Prior to software development I traveled diverse paths such as a biologist, chef, surveyor and horticulturalist.
         Those jobs taught me about the ins and out of  handling clients and working in a team.
@@ -42,6 +42,17 @@ function App() {
         I realized that my true passion was coding. I began with online tutorials and moved my way up to coding competitions
         which were exhilarating. I am excited to bring my enjoyment of coding together with my strengths of analytical thinking, perseverance and attention to detail to become the best software engineer I can be.
         </p>
+        <div className='knowledge'>
+          <h3>Expertise in:</h3>
+          <li>Javascript</li>
+          <li>Ruby</li>
+          <li>SQL</li>
+          <li>React.js</li>
+          <li>Redux</li>
+          <li>CSS/ HTML</li>
+          <h3>Currently learning:</h3>
+          <li>PHP</li>
+        </div>
       </div>
       <div className='contactDiv'>
         <h3>Contact Info</h3>

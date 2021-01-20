@@ -109,7 +109,7 @@ a {
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: -65vh;
+  bottom: -57vh;
   outline:none;
   background-repeat:no-repeat;
   border: none;
@@ -151,4 +151,8 @@ a {
 
 .linkedin {
   padding: 0;
+}
+
+.knowledge{
+  padding: 1rem 0rem
 }
