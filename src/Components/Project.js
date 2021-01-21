@@ -7,10 +7,9 @@ export default class Project extends Component {
 
 
     render() {
-        let {title, description, githubURL, hostedLink, videoSRC} = this.props.project
+        let {title, description, githubURL, hostedLink, videoSRC, vidPoster} = this.props.project
         return(
             <div className='projectCard'>
-                {/* <ReactPlayer url='https://www.youtube.com/watch?v=v4K8SMMEvRM' width='35vh' height='35vh' className='video'/> */}
                 <video
                     id="my-video"
                     className="video-js"
@@ -18,9 +17,9 @@ export default class Project extends Component {
                     preload="auto"
                     width="264"
                     height="264"
-                    poster="MY_VIDEO_POSTER.jpg"
+                    poster={vidPoster}
                     data-setup="{}">
-                    <source src={viddemo} type="video/mp4" />
+                    <source src={videoSRC} type="video/mp4" />
                     <p className="vjs-no-js">
                     To view this video please enable JavaScript, and consider upgrading to a
                     web browser that
@@ -31,7 +30,7 @@ export default class Project extends Component {
                 </video>
                 <div className="projectText">
                     <h2>{title}</h2>
-                    <p>{description}</p>
+                    <p className="description">{description}</p>
                     <div className='links'>
                         <p>Links: </p>
                         {/* <li></li> */}
