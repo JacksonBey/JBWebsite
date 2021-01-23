@@ -1,5 +1,7 @@
 import ppdemo from './Project Demos/PeoplePagesDemo.mp4'
 import ppPoster from './image/ppScreenShot.png'
+import bldemo from './Project Demos/BlobLife Demo.mp4'
+import blPoster from './image/Bloblife screenshot.png'
 
 const projectData = [
     {
@@ -11,11 +13,12 @@ const projectData = [
         vidPoster: ppPoster
     },
     {
-        title:'People Pages',
-        description:'an app made to explore the functionality of social media websites',
-        githubURL:'https://github.com/JacksonBey/PeoplePages_Frontend',
-        hostedLink:'put host url here',
-        videoSRC: './Project Demos/PeoplePagesDemo.mp4'
+        title:'Blob Life',
+        description:'A 2D platforming game made with vanilla Javascript. Blob Life features three challenging levels and 6 unique Blobs to choose from, each with their own stats. Blobs can die to lava or falling from too far of a distance. Once all lives are lost its game over and the player must restart. Press the escape key to pause.',
+        githubURL:'https://github.com/MullaN/BlobLife',
+        hostedLink:'https://jacksonbey.github.io/Bloblife-frontend/',
+        videoSRC: bldemo,
+        vidPoster: blPoster
     },
     {
         title:'People Pages',
