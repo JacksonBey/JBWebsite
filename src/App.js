@@ -1,6 +1,10 @@
 import './App.css';
 import ProjectContainer from './Containers/ProjectContainer.js'
 import Arrow from './image/Arrow.png'
+import Download from './image/Download.png'
+import resume from './resume/Jackson Beytebiere- Software Developer- Jan2021.pdf'
+
+
 
 function App() {
   return (
@@ -27,7 +31,11 @@ function App() {
      </a>
      <a href="#about" className='firstContactDiv'> 
      <img className='Arrow' src={Arrow} alt='Arrow here'/>
-     <h3>About me/ Contact</h3>
+     <h3>About me</h3>
+     </a>
+     <a href={resume} className='resumeButtonDiv' download > 
+     <img className='DownloadIcon' src={Download} alt='DL icon here'/>
+     <h3>Resume</h3>
      </a>
      </div>
      <div id='projects' className='ProjectContainerDiv'>
