@@ -20,10 +20,16 @@ function App() {
      </div> */}
      <br/>
      <br/>
+     <div className="navDiv">
      <a href="#projects" className='ProjectButtonDiv'> 
      <img className='Arrow' src={Arrow} alt='Arrow here'/>
      <h3>Projects</h3>
      </a>
+     <a href="#about" className='contactButtonDiv'> 
+     <img className='Arrow' src={Arrow} alt='Arrow here'/>
+     <h3>About me/ Contact</h3>
+     </a>
+     </div>
      <div id='projects' className='ProjectContainerDiv'>
       <ProjectContainer/>
      </div>
