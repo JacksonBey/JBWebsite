@@ -25,7 +25,7 @@ function App() {
      <img className='Arrow' src={Arrow} alt='Arrow here'/>
      <h3>Projects</h3>
      </a>
-     <a href="#about" className='contactButtonDiv'> 
+     <a href="#about" className='firstContactDiv'> 
      <img className='Arrow' src={Arrow} alt='Arrow here'/>
      <h3>About me/ Contact</h3>
      </a>
