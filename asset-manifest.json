@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/JB-Website/static/css/main.487c7a8d.chunk.css",
-    "main.js": "/JB-Website/static/js/main.458ba513.chunk.js",
-    "main.js.map": "/JB-Website/static/js/main.458ba513.chunk.js.map",
+    "main.js": "/JB-Website/static/js/main.568aa371.chunk.js",
+    "main.js.map": "/JB-Website/static/js/main.568aa371.chunk.js.map",
     "runtime-main.js": "/JB-Website/static/js/runtime-main.82a65bc4.js",
     "runtime-main.js.map": "/JB-Website/static/js/runtime-main.82a65bc4.js.map",
     "static/js/2.58f69963.chunk.js": "/JB-Website/static/js/2.58f69963.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/Bloblife screenshot.01ec3694.png": "/JB-Website/static/media/Bloblife screenshot.01ec3694.png",
     "static/media/DavisList Demo.a35595c8.mp4": "/JB-Website/static/media/DavisList Demo.a35595c8.mp4",
     "static/media/Download.a566a63c.png": "/JB-Website/static/media/Download.a566a63c.png",
-    "static/media/Jackson Beytebiere- Software Developer- Jan2021.33fb0375.pdf": "/JB-Website/static/media/Jackson Beytebiere- Software Developer- Jan2021.33fb0375.pdf",
+    "static/media/Jackson Beytebiere-Software Engineer-2021.53348987.pdf": "/JB-Website/static/media/Jackson Beytebiere-Software Engineer-2021.53348987.pdf",
     "static/media/PeoplePagesDemo.76da07b3.mp4": "/JB-Website/static/media/PeoplePagesDemo.76da07b3.mp4",
     "static/media/davislist poster.7bc03bc8.png": "/JB-Website/static/media/davislist poster.7bc03bc8.png",
     "static/media/ppScreenShot.d2a418bc.png": "/JB-Website/static/media/ppScreenShot.d2a418bc.png"
@@ -26,6 +26,6 @@
     "static/js/runtime-main.82a65bc4.js",
     "static/js/2.58f69963.chunk.js",
     "static/css/main.487c7a8d.chunk.css",
-    "static/js/main.458ba513.chunk.js"
+    "static/js/main.568aa371.chunk.js"
   ]
 }
