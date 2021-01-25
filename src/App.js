@@ -52,30 +52,34 @@ function App() {
      <div id='about' className='infoDiv'>
      <div className='aboutDiv'>
       <h3>About me</h3>
-      <p>My name is Jackson Beytebiere (pronounced bate-ah-bear). Im a software engineer. I graduated from Flatiron coding bootcamp, an intensive 12 week course which involved learning full stack development with modern frameworks
-  .      I have deep knowledge in engineering, physics and biology as I have a bachelors in science from University of Washington.
-        Prior to software development I traveled diverse paths such as a biologist, chef, surveyor and horticulturalist.
-        Those jobs taught me about the ins and out of  handling clients and working in a team.
-        Though at the start of 2020 with the lockdown I had to reevaluate my life.
-        I realized that my true passion was coding. I began with online tutorials and moved my way up to coding competitions
-        which were exhilarating. I am excited to bring my enjoyment of coding together with my strengths of analytical thinking, perseverance and attention to detail to become the best software engineer I can be.
-        </p>
-        <div className='knowledge'>
-          <h3>Expertise in:</h3>
-          <li>Javascript</li>
-          <li>Ruby</li>
-          <li>SQL</li>
-          <li>React.js</li>
-          <li>Redux</li>
-          <li>CSS/ HTML</li>
-          <h3>Currently learning:</h3>
-          <li>PHP</li>
-        </div>
+      <p>At one point in my life, you could likely find me in a marsh on a cold autumn day measuring the length between nodes on a blade of grass. These days you can probably find me measuring the length between website components loading. 
+        <br/>
+        My name’s Jackson Beytebiere. Im a software engineer. I like to make websites and software. Javascript is my hammer, and every website component is a nail. There isn’t anything I can’t build using Javascript, CSS and HTML. 
+      </p>
+      <div className='knowledge'>
+        <h3>Expertise in:</h3>
+        <li>Javascript</li>
+        <li>Ruby</li>
+        <li>SQL</li>
+        <li>React.js</li>
+        <li>Redux</li>
+        <li>CSS/ HTML</li>
+        {/* <h3>Currently learning:</h3>
+        <li>PHP</li> */}
+      </div>
       </div>
       <div className='contactDiv'>
         <h3>Contact Info</h3>
-        <p>Email: jacksongrowson@gmail.com</p>
-        <a href='https://www.linkedin.com/in/jackson-beytebiere-2049951b6/' className='linkedin'>Linkedin</a>
+        <a href='https://www.linkedin.com/in/jackson-beytebiere-2049951b6/' className='linkedin'>
+        <img  alt='JacksonBey | LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
+        </a>
+        <a href='https://github.com/JacksonBey/JacksonBey'>
+        <img  alt='JacksonBey | Github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg' />
+        </a>
+        <a href="mailto:jacksongrowson@gmail.com" style={{  'text-decoration': 'none', 'color': 'black'}}>
+        Email: jacksongrowson@gmail.com
+        {/* <img  alt='JacksonBey | Email' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.7.0/icons/gmail.svg' /> */}
+        </a>
       </div>
      </div>
      <div id='dummy' className='dummy'></div>
