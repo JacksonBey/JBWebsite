@@ -2,7 +2,7 @@ import './App.css';
 import ProjectContainer from './Containers/ProjectContainer.js'
 import Arrow from './image/Arrow.png'
 import Download from './image/Download.png'
-import resume from './resume/Jackson Beytebiere- Software Developer- Jan2021.pdf'
+import resume from './resume/Jackson Beytebiere-Software Engineer-2021.pdf'
 
 
 
