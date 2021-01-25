@@ -32,7 +32,7 @@ export default class Project extends Component {
                     <div className='links'>
                         <p>Links: </p>
                         {/* <li></li> */}
-                        <a href={hostedLink}>Live Website</a>
+                        <a href={hostedLink}>Website</a>
                         {/* <li></li> */}
                         <a href={githubURL}> Github
                         </a>

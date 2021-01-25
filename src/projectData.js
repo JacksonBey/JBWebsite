@@ -18,7 +18,7 @@ const projectData = [
         title:'Blob Life',
         description:'A 2D platforming game made with vanilla Javascript. Blob Life features three challenging levels and 6 unique Blobs to choose from, each with their own stats. Blobs can die to lava or falling from too far of a distance. Once all lives are lost its game over and the player must restart. Press the escape key to pause.',
         githubURL:'https://github.com/MullaN/BlobLife',
-        hostedLink:'https://jacksonbey.github.io/Bloblife-frontend/',
+        hostedLink:'https://jacksonbey.github.io/BlobLife-Frontend/',
         videoSRC: bldemo,
         vidPoster: blPoster
     },
