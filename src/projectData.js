@@ -2,6 +2,8 @@ import ppdemo from './Project Demos/PeoplePagesDemo.mp4'
 import ppPoster from './image/ppScreenShot.png'
 import bldemo from './Project Demos/BlobLife Demo.mp4'
 import blPoster from './image/Bloblife screenshot.png'
+import dldemo from './Project Demos/DavisList Demo.mp4'
+import dlPoster from './image/davislist poster.png'
 
 const projectData = [
     {
@@ -21,11 +23,12 @@ const projectData = [
         vidPoster: blPoster
     },
     {
-        title:'People Pages',
-        description:'an app made to explore the functionality of social media websites',
-        githubURL:'https://github.com/JacksonBey/PeoplePages_Frontend',
-        hostedLink:'put host url here',
-        videoSRC: './Project Demos/PeoplePagesDemo.mp4'
+        title:'DavisList',
+        description:'A Craigs-list like website where users can make job listings, furnature sales, ect. Users can make accounts, message about listings, save posts and leave comments. Constructed using Ruby on Rails.',
+        githubURL:'https://github.com/JacksonBey/DavisList',
+        hostedLink:'https://davislist.herokuapp.com/',
+        videoSRC: dldemo,
+        vidPoster: dlPoster
     }
 ]
 

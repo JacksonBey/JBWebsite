@@ -3,6 +3,10 @@ import ProjectContainer from './Containers/ProjectContainer.js'
 import Arrow from './image/Arrow.png'
 
 function App() {
+//   [<img align='left' alt='JacksonBey | Email' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.7.0/icons/gmail.svg' />](mailto:jacksongrowson@gmail.com)
+// [<img align='left' alt='JacksonBey | LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />][linkedin]
+// <br />
+
   return (
     <div className='app'>
      <h1 className='title'>Hi I'm Jackson Beytebiere <br/> I'm a Software Engineer</h1>

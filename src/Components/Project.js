@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import ReactPlayer from 'react-player';
-import viddemo from '../Project Demos/viddemo.mp4';
 
 
 export default class Project extends Component {
