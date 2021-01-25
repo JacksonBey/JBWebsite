@@ -1,6 +1,10 @@
 import './App.css';
 import ProjectContainer from './Containers/ProjectContainer.js'
 import Arrow from './image/Arrow.png'
+import Download from './image/Download.png'
+import resume from './resume/Jackson Beytebiere- Software Developer- Jan2021.pdf'
+
+
 
 function App() {
 //   [<img align='left' alt='JacksonBey | Email' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.7.0/icons/gmail.svg' />](mailto:jacksongrowson@gmail.com)
@@ -24,10 +28,20 @@ function App() {
      </div> */}
      <br/>
      <br/>
+     <div className="navDiv">
      <a href="#projects" className='ProjectButtonDiv'> 
      <img className='Arrow' src={Arrow} alt='Arrow here'/>
      <h3>Projects</h3>
      </a>
+     <a href="#about" className='firstContactDiv'> 
+     <img className='Arrow' src={Arrow} alt='Arrow here'/>
+     <h3>About me</h3>
+     </a>
+     <a href={resume} className='resumeButtonDiv' download > 
+     <img className='DownloadIcon' src={Download} alt='DL icon here'/>
+     <h3>Resume</h3>
+     </a>
+     </div>
      <div id='projects' className='ProjectContainerDiv'>
       <ProjectContainer/>
      </div>
