@@ -66,7 +66,7 @@ h1 {
 
 .ProjectContainerDiv{
   position: relative;
-  bottom: -60vh;
+  bottom: -40vh;
   /* width: 80%; */
 }
 
@@ -181,16 +181,17 @@ h1 {
   /* min-width: 25rem; */
   margin: 1vh 1vh;
   padding: 0rem 0rem;
-  font-size:1.6vw;
+  font-size:1.4vw;
 }
 
 
 @media screen and (max-width: 800px) {
   .video-js {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 95%; /* The width is 100%, when the viewport is 800px or smaller */
+    left: 0%;
   }
   .projectText{
-    font-size:6vw;
+    font-size:3.5vw;
   }
   .firstContactDiv{
     font-size: 2.7vw;
@@ -235,7 +236,7 @@ a {
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: -57vh;
+  bottom: -50vh;
   outline:none;
   background-repeat:no-repeat;
   border: none;
@@ -253,7 +254,7 @@ a {
   /* display: inline-flex; */
   align-items: center;
   justify-content: center;
-  bottom: -100vh;
+  bottom: -70vh;
   padding:2rem 3rem;
   margin: 2rem 3rem;
   background: linear-gradient(
@@ -272,7 +273,7 @@ a {
 
 .dummy {
   position: relative;
-  bottom: -165vh;
+  bottom: -80vh;
   padding: 5rem
 }
 
