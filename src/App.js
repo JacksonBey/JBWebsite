@@ -55,6 +55,8 @@ function App() {
       <p>At one point in my life, you could likely find me in a marsh on a cold autumn day measuring the length between nodes on a blade of grass. These days you can probably find me measuring the length between website components loading. 
         <br/>
         My name’s Jackson Beytebiere. Im a software engineer. I like to make websites and software. Javascript is my hammer, and every website component is a nail. There isn’t anything I can’t build using Javascript, CSS and HTML. 
+        <br/>
+        
       </p>
       <div className='knowledge'>
         <h3>Expertise in:</h3>
@@ -70,6 +72,7 @@ function App() {
       </div>
       <div className='contactDiv'>
         <h3>Contact Info</h3>
+        <p>Feel free to connect with me on Linkedin or send me an email. </p>
         <a href='https://www.linkedin.com/in/jackson-beytebiere-2049951b6/' className='linkedin'>
         <img  alt='JacksonBey | LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
         </a>

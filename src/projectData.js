@@ -15,8 +15,8 @@ const projectData = [
         vidPoster: ppPoster
     },
     {
-        title:'Blob Life',
-        description:'A 2D platforming game made with vanilla Javascript. Blob Life features three challenging levels and 6 unique Blobs to choose from, each with their own stats. Blobs can die to lava or falling from too far of a distance. Once all lives are lost its game over and the player must restart. Press the escape key to pause.',
+        title:'BlobLife',
+        description:'A 2D platforming game made with vanilla Javascript. BlobLife features three challenging levels and 6 unique Blobs to choose from, each with their own stats. Blobs can die to lava or falling from too far of a distance. Once all lives are lost its game over and the player must restart. Press the escape key to pause.',
         githubURL:'https://github.com/MullaN/BlobLife',
         hostedLink:'https://jacksonbey.github.io/BlobLife-Frontend/',
         videoSRC: bldemo,
@@ -24,7 +24,7 @@ const projectData = [
     },
     {
         title:'DavisList',
-        description:'A Craigslist like website where users can make job listings, furniture sales, ect. Users can make accounts, message about listings, save posts and leave comments. Constructed using Ruby on Rails.',
+        description:'A Craigslist like website where users can make job listings, furniture sales, etc. Users can make accounts, message about listings, save posts and leave comments. Constructed using Ruby on Rails.',
         githubURL:'https://github.com/JacksonBey/DavisList',
         hostedLink:'https://davislist.herokuapp.com/',
         videoSRC: dldemo,
