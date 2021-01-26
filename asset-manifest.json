@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/JB-Website/static/css/main.487c7a8d.chunk.css",
-    "main.js": "/JB-Website/static/js/main.9ce7af5c.chunk.js",
-    "main.js.map": "/JB-Website/static/js/main.9ce7af5c.chunk.js.map",
+    "main.css": "/JB-Website/static/css/main.d5049092.chunk.css",
+    "main.js": "/JB-Website/static/js/main.a4674d67.chunk.js",
+    "main.js.map": "/JB-Website/static/js/main.a4674d67.chunk.js.map",
     "runtime-main.js": "/JB-Website/static/js/runtime-main.82a65bc4.js",
     "runtime-main.js.map": "/JB-Website/static/js/runtime-main.82a65bc4.js.map",
     "static/js/2.58f69963.chunk.js": "/JB-Website/static/js/2.58f69963.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.cf650d4d.chunk.js": "/JB-Website/static/js/3.cf650d4d.chunk.js",
     "static/js/3.cf650d4d.chunk.js.map": "/JB-Website/static/js/3.cf650d4d.chunk.js.map",
     "index.html": "/JB-Website/index.html",
-    "static/css/main.487c7a8d.chunk.css.map": "/JB-Website/static/css/main.487c7a8d.chunk.css.map",
+    "static/css/main.d5049092.chunk.css.map": "/JB-Website/static/css/main.d5049092.chunk.css.map",
     "static/js/2.58f69963.chunk.js.LICENSE.txt": "/JB-Website/static/js/2.58f69963.chunk.js.LICENSE.txt",
     "static/media/Arrow.b300116a.png": "/JB-Website/static/media/Arrow.b300116a.png",
     "static/media/BlobLife Demo.38a2813b.mp4": "/JB-Website/static/media/BlobLife Demo.38a2813b.mp4",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.82a65bc4.js",
     "static/js/2.58f69963.chunk.js",
-    "static/css/main.487c7a8d.chunk.css",
-    "static/js/main.9ce7af5c.chunk.js"
+    "static/css/main.d5049092.chunk.css",
+    "static/js/main.a4674d67.chunk.js"
   ]
 }
