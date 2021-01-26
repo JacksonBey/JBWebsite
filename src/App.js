@@ -80,7 +80,7 @@ function App() {
         Email: jacksongrowson@gmail.com
         {/* <img  alt='JacksonBey | Email' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.7.0/icons/gmail.svg' /> */}
         </a>
-        <a href={resume} download style={{  'text-decoration': 'none', 'color': 'black'}}> Resume</a>
+        <a href={resume} download style={{  'text-decoration': 'none', 'color': 'black'}}>&#10515; Resume</a>
       </div>
      </div>
      <div id='dummy' className='dummy'></div>
