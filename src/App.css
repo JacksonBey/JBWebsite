@@ -118,6 +118,7 @@ h1 {
   color:black;
   text-decoration: none;
   left: -5%;
+  top:10vh;
 }
 
 .projectCard {
@@ -214,6 +215,7 @@ h1 {
   .navDiv{
     flex-flow: wrap;
     columns: 100px 1;
+    top:-4vh;
   }
 
 }
