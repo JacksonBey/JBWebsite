@@ -24,7 +24,7 @@ const projectData = [
     },
     {
         title:'DavisList',
-        description:'A Craigslist like website where users can make job listings, furnature sales, ect. Users can make accounts, message about listings, save posts and leave comments. Constructed using Ruby on Rails.',
+        description:'A Craigslist like website where users can make job listings, furniture sales, ect. Users can make accounts, message about listings, save posts and leave comments. Constructed using Ruby on Rails.',
         githubURL:'https://github.com/JacksonBey/DavisList',
         hostedLink:'https://davislist.herokuapp.com/',
         videoSRC: dldemo,
