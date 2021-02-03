@@ -188,7 +188,7 @@ h1 {
 
 @media screen and (max-width: 800px) {
   .video-js {
-    width: 95%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 95%;
     left: 0%;
   }
   .projectText{
