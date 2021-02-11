@@ -21,7 +21,7 @@ export default class Project extends Component {
                     <p className="vjs-no-js">
                     To view this video please enable JavaScript, and consider upgrading to a
                     web browser that
-                    <a href="https://videojs.com/html5-video-support/" target="_blank"
+                    <a href="https://videojs.com/html5-video-support/" rel='noopener'
                         >supports HTML5 video</a
                     >
                     </p>
@@ -32,9 +32,9 @@ export default class Project extends Component {
                     <div className='links'>
                         <p>Links: </p>
                         {/* <li></li> */}
-                        <a href={hostedLink}>Website</a>
+                        <a href={hostedLink} rel='noopener'>Website</a>
                         {/* <li></li> */}
-                        <a href={githubURL}> Github
+                        <a href={githubURL} rel='noopener'> Github
                         </a>
                     </div>
                 </div>

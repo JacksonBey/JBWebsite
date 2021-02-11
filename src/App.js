@@ -75,13 +75,13 @@ function App() {
       <div className='contactDiv'>
         <h2>Contact Info</h2>
         <p>Feel free to connect with me on Linkedin or send me an email. </p>
-        <a href='https://www.linkedin.com/in/jackson-beytebiere-2049951b6/' className='linkedin'>
+        <a href='https://www.linkedin.com/in/jackson-beytebiere-2049951b6/'  rel='noopener' className='linkedin'>
         <img  alt='JacksonBey | LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
         </a>
-        <a href='https://github.com/JacksonBey/JacksonBey'>
+        <a href='https://github.com/JacksonBey/JacksonBey' rel='noopener'>
         <img  alt='JacksonBey | Github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg' />
         </a>
-        <a href="mailto:jacksongrowson@gmail.com" style={{  'text-decoration': 'none', 'color': 'black'}}>
+        <a href="mailto:jacksongrowson@gmail.com" rel='noopener' style={{  'text-decoration': 'none', 'color': 'black'}}>
         Email: jacksongrowson@gmail.com
         {/* <img  alt='JacksonBey | Email' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.7.0/icons/gmail.svg' /> */}
         </a>

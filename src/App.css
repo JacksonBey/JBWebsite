@@ -47,16 +47,15 @@ h1 {
 
 }
 
-.Arrow {
+/* .Arrow {
   height: 12vh;
   width: auto;
-  /* transform: rotate(90deg) */
-}
+} */
 
-.DownloadIcon{
+/* .DownloadIcon{
   height: 12vh;
   width: auto;
-}
+} */
 
 .ProjectContainerDiv{
   position: relative;
