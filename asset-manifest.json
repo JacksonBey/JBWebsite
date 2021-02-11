@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/JB-Website/static/css/main.4613f524.chunk.css",
-    "main.js": "/JB-Website/static/js/main.e05f5f12.chunk.js",
-    "main.js.map": "/JB-Website/static/js/main.e05f5f12.chunk.js.map",
+    "main.css": "/JB-Website/static/css/main.e1327c3d.chunk.css",
+    "main.js": "/JB-Website/static/js/main.a55d0c2f.chunk.js",
+    "main.js.map": "/JB-Website/static/js/main.a55d0c2f.chunk.js.map",
     "runtime-main.js": "/JB-Website/static/js/runtime-main.82a65bc4.js",
     "runtime-main.js.map": "/JB-Website/static/js/runtime-main.82a65bc4.js.map",
     "static/js/2.58f69963.chunk.js": "/JB-Website/static/js/2.58f69963.chunk.js",
@@ -10,22 +10,22 @@
     "static/js/3.cf650d4d.chunk.js": "/JB-Website/static/js/3.cf650d4d.chunk.js",
     "static/js/3.cf650d4d.chunk.js.map": "/JB-Website/static/js/3.cf650d4d.chunk.js.map",
     "index.html": "/JB-Website/index.html",
-    "static/css/main.4613f524.chunk.css.map": "/JB-Website/static/css/main.4613f524.chunk.css.map",
+    "static/css/main.e1327c3d.chunk.css.map": "/JB-Website/static/css/main.e1327c3d.chunk.css.map",
     "static/js/2.58f69963.chunk.js.LICENSE.txt": "/JB-Website/static/js/2.58f69963.chunk.js.LICENSE.txt",
-    "static/media/Arrow.b300116a.png": "/JB-Website/static/media/Arrow.b300116a.png",
+    "static/media/Arrow.251cca7d.webp": "/JB-Website/static/media/Arrow.251cca7d.webp",
     "static/media/BlobLife Demo.38a2813b.mp4": "/JB-Website/static/media/BlobLife Demo.38a2813b.mp4",
-    "static/media/Bloblife screenshot.01ec3694.png": "/JB-Website/static/media/Bloblife screenshot.01ec3694.png",
+    "static/media/Bloblife_screenshot.ab5f8ba6.webp": "/JB-Website/static/media/Bloblife_screenshot.ab5f8ba6.webp",
     "static/media/DavisList Demo.a35595c8.mp4": "/JB-Website/static/media/DavisList Demo.a35595c8.mp4",
-    "static/media/Download.a566a63c.png": "/JB-Website/static/media/Download.a566a63c.png",
+    "static/media/Download.a0759d6f.webp": "/JB-Website/static/media/Download.a0759d6f.webp",
     "static/media/Jackson Beytebiere-Software Engineer-2021.3064a43f.pdf": "/JB-Website/static/media/Jackson Beytebiere-Software Engineer-2021.3064a43f.pdf",
     "static/media/PeoplePagesDemo.76da07b3.mp4": "/JB-Website/static/media/PeoplePagesDemo.76da07b3.mp4",
-    "static/media/davislist poster.7bc03bc8.png": "/JB-Website/static/media/davislist poster.7bc03bc8.png",
-    "static/media/ppScreenShot.d2a418bc.png": "/JB-Website/static/media/ppScreenShot.d2a418bc.png"
+    "static/media/davislist_poster.605bc974.webp": "/JB-Website/static/media/davislist_poster.605bc974.webp",
+    "static/media/pp_ScreenShot.35af8ee8.webp": "/JB-Website/static/media/pp_ScreenShot.35af8ee8.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.82a65bc4.js",
     "static/js/2.58f69963.chunk.js",
-    "static/css/main.4613f524.chunk.css",
-    "static/js/main.e05f5f12.chunk.js"
+    "static/css/main.e1327c3d.chunk.css",
+    "static/js/main.a55d0c2f.chunk.js"
   ]
 }
