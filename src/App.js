@@ -73,7 +73,7 @@ function App() {
       </div>
       </div>
       <div className='contactDiv'>
-        <h3>Contact Info</h3>
+        <h2>Contact Info</h2>
         <p>Feel free to connect with me on Linkedin or send me an email. </p>
         <a href='https://www.linkedin.com/in/jackson-beytebiere-2049951b6/' className='linkedin'>
         <img  alt='JacksonBey | LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
