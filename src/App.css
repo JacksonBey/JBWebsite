@@ -167,6 +167,8 @@ h1 {
   height: 80%;
   /* max-width: 300px; */
   /* max-height: 300px; */
+  color: #fff;
+  background-color: #000;
 }
 
 /* .video-js {
