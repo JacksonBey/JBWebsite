@@ -1,9 +1,9 @@
 import ppdemo from './Project Demos/PeoplePagesDemo.mp4'
-import ppPoster from './image/ppScreenShot.png'
+import ppPoster from './image/pp_ScreenShot.webp'
 import bldemo from './Project Demos/BlobLife Demo.mp4'
-import blPoster from './image/Bloblife screenshot.png'
+import blPoster from './image/Bloblife_screenshot.webp'
 import dldemo from './Project Demos/DavisList Demo.mp4'
-import dlPoster from './image/davislist poster.png'
+import dlPoster from './image/davislist_poster.webp'
 
 const projectData = [
     {

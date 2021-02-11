@@ -50,7 +50,7 @@ h1 {
 .Arrow {
   height: 12vh;
   width: auto;
-  transform: rotate(90deg)
+  /* transform: rotate(90deg) */
 }
 
 .DownloadIcon{

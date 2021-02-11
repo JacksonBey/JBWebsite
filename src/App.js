@@ -1,7 +1,7 @@
 import './App.css';
 import ProjectContainer from './Containers/ProjectContainer.js'
-import Arrow from './image/Arrow.png'
-import Download from './image/Download.png'
+import Arrow from './image/Arrow.webp'
+import Download from './image/Download.webp'
 import resume from './resume/Jackson Beytebiere-Software Engineer-2021.pdf'
 
 
