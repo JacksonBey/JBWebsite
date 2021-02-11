@@ -31,15 +31,15 @@ function App() {
      <div className="navDiv">
      <a href="#projects" className='ProjectButtonDiv'> 
      <img className='Arrow' src={Arrow} alt='Arrow here'/>
-     <h3>Projects</h3>
+     <h2>Projects</h2>
      </a>
      <a href="#about" className='firstContactDiv'> 
      <img className='Arrow' src={Arrow} alt='Arrow here'/>
-     <h3>About me</h3>
+     <h2>About me</h2>
      </a>
      <a href={resume} className='resumeButtonDiv' download > 
      <img className='DownloadIcon' src={Download} alt='DL icon here'/>
-     <h3>Resume</h3>
+     <h2>Resume</h2>
      </a>
      </div>
      <div id='projects' className='ProjectContainerDiv'>
@@ -47,7 +47,7 @@ function App() {
      </div>
      <a href="#about" className='contactButtonDiv'> 
      <img className='Arrow' src={Arrow} alt='Arrow here'/>
-     <h3>About me/ Contact</h3>
+     <h2>About me/ Contact</h2>
      </a>
      <div id='about' className='infoDiv'>
      <div className='aboutDiv'>
@@ -60,12 +60,14 @@ function App() {
       </p>
       <div className='knowledge'>
         <h3>Expertise in:</h3>
+        <ul>
         <li>Javascript</li>
         <li>Ruby</li>
         <li>SQL</li>
         <li>React.js</li>
         <li>Redux</li>
         <li>CSS/ HTML</li>
+        </ul>
         {/* <h3>Currently learning:</h3>
         <li>PHP</li> */}
       </div>
